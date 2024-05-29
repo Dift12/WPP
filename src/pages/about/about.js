@@ -1,4 +1,6 @@
-import "./about.lazy.css";
+import about from "./about.lazy.css";
+
+export {about};
 
 export default function makeAbout(){
 
@@ -53,3 +55,5 @@ export default function makeAbout(){
 
     return section;
 }
+
+

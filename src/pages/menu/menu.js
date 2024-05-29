@@ -1,4 +1,6 @@
-import "./menu.lazy.css";
+import menu from "./menu.lazy.css";
+
+export {menu};
 
 export default function makeMenu(){
     
