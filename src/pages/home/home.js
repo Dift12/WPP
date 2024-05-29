@@ -3,7 +3,7 @@ import info from "./components/info";
 import banner from "./components/banner";
 import review from "./components/review";
 
-import "./home.css";
+import "./home.lazy.css";
 
 export default function makeHome(){
     const home=document.createElement("div");
