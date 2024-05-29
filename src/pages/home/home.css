@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Brand;
+    src: url('../../fonts/FungkaCity-Regular.woff2') format('woff2'),
+        url('../../fonts/FungkaCity-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .hero{
     height: 100vh;
     background: url("./hero.jpg");
@@ -16,24 +25,34 @@
 }
 
 .overlay > div{
-    border: 3px solid var(--accent);
     padding: 5px;
+    display: flex;
 }
 
 .overlay p{
     color: var(--accent);
+    font-family: Brand;
+    padding: 3px;
+}
+
+.brand-text{
+    padding: 5px;
 }
 
 .brand-text p{
-    font-size: clamp(4rem, 10vmax, 10rem);
+    font-size: clamp(4rem, 10vmax, 8rem);
     line-height: 0.85;
     text-transform: uppercase;
+    border-bottom: 1px solid var(--accent);
 }
 
 .brand-text-alt{
     font-size: 3rem;
     border: 1px solid #b1373b;
     text-align: center;
+    align-self: flex-start;
+    max-width: 6ch;
+    flex-shrink: 1;
 }
 
 .info{
