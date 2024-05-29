@@ -11,6 +11,15 @@
     --accent:#b1373b;
 }
 
+@font-face {
+    font-family: Brand;
+    src: url('../fonts/FungkaCity-Regular.woff2') format('woff2'),
+        url('../fonts/FungkaCity-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 a{
     text-decoration: none;
 }
