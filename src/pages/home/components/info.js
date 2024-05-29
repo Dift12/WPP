@@ -17,7 +17,9 @@ export default function info(){
 
     infoTitle.textContent="What's up with that?";
     infoSubTitle.textContent="No special meaning here, just placeholders."
-    paragraph.textContent="Lorem";
+    paragraph.textContent=`The amount of text required here to make a paragraph look real is something that i 
+                           dont know , so i'll just fill everthing with text to make it look somewhat real,
+                           nevertheless the content of this paragraph is completely irrelevant and it makes no sense.`
 
     textContainer.appendChild(infoTitle);
     textContainer.appendChild(infoSubTitle);
