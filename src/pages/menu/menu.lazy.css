@@ -16,6 +16,10 @@ ul li{
     border-bottom: 1px dotted var(--accent);
 }
 
+.card p:not(:first-child){
+    margin-left: 20px;
+}
+
 .card{
     margin: 10px;
 }
