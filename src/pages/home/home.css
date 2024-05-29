@@ -152,3 +152,47 @@
     color: black;
     cursor: pointer;
 }
+
+.reviews{
+    padding: 30px;
+}
+
+.reviews p:first-child{
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: Brand;
+    font-weight: bold;
+    padding: 0px 20px 20px 20px;
+}
+
+.display{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.card{
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card > p:first-child{
+    text-align: center;
+    font-family: Brand;
+    font-size: 1.6rem;
+}
+
+.card span{
+    font-size: 1rem ;
+    letter-spacing: -5px ;
+    text-align: center;
+}
+
+.card>p:last-child{
+    align-self: flex-end;
+    font-weight: bold;
+    font-style: italic;
+}
