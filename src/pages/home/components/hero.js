@@ -11,7 +11,7 @@ export default function hero(){
     brandSubText.classList.add("brand-text-alt");
 
     brand.innerHTML="<p>oysver <br> danver</p>";
-    brandSubText.textContent="ASDASDASD";
+    brandSubText.textContent="読書するクソ野郎";
 
     heroOverlay.appendChild(brand);
     heroOverlay.appendChild(brandSubText);
