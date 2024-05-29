@@ -1,0 +1,48 @@
+.menu{
+    background-color: black;
+    padding: 20px;
+}
+
+ul{
+    padding: 30px;
+    list-style: none;
+    margin: auto;
+    max-width: 85ch;
+}
+
+ul li{
+    color: white;
+    margin: 5px;
+    border-bottom: 1px dotted var(--accent);
+}
+
+.card{
+    margin: 10px;
+}
+
+.card p:first-child{
+    font-family: Brand;
+    color: var(--accent);
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.description, .ingredients{
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.description::before , .ingredients::before{
+    font-family: brand;
+    color: var(--accent);
+    font-size: 1rem;
+    content: "DESCRIPTION: ";
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.ingredients::before{
+    content: "INGREDIENTS: ";
+}
