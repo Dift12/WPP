@@ -1,0 +1,40 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --inactive: 0.7;
+    --active:1;
+    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    background-color: transparent;/*remove*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+nav > button{
+    background-color: transparent;
+    border:none;
+    text-transform: uppercase;
+    opacity: var(--inactive);
+    transition: 0.2s; /*shorten*/
+    color:white;
+}
+
+nav > button:hover{
+    letter-spacing: 1px;
+    font-weight: bold;
+    opacity: var(--active);
+    cursor: pointer;
+}
