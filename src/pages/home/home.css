@@ -100,7 +100,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 45vh;
 }
 
 .banner > video{
@@ -123,10 +122,10 @@
     color: white;
     flex-direction: column;
     justify-content: space-evenly;
+    gap: 50px;
     align-items: center;
     background-color: rgba(0,0,0,0.6);
-    height: 100%;
-    width: 100%;
+    min-height: 45vh;
 }
 
 .ban-overlay p:first-child{
