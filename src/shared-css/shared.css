@@ -11,6 +11,10 @@
     --accent:#b1373b;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     position: fixed;
     width: 100%;
@@ -38,4 +42,20 @@ nav > button:hover{
     font-weight: bold;
     opacity: var(--active);
     cursor: pointer;
+}
+
+footer{
+    background-color: var(--accent);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+footer p{
+    margin: 10px;
+    text-align: justify;
+}
+
+footer a{
+    color: white;
 }
