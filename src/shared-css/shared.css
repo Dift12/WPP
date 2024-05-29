@@ -11,6 +11,21 @@
     --accent:#b1373b;
 }
 
+body{
+    background-color: black;
+}
+
+/*
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    flex-grow: 1;
+}*/
+
 @font-face {
     font-family: Brand;
     src: url('../fonts/FungkaCity-Regular.woff2') format('woff2'),
@@ -35,6 +50,12 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
+    transition: 0.2s;
+}
+
+.scrolled{
+    background-color: black;
+    border-bottom:1px solid var(--accent) ;
 }
 
 nav > button{

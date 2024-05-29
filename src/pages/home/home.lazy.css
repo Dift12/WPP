@@ -57,6 +57,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    color: white;
 }
 
 .info > img{
@@ -146,6 +147,7 @@
 
 .reviews{
     padding: 30px;
+    color: white;
 }
 
 .reviews p:first-child{
@@ -163,7 +165,7 @@
 }
 
 .card{
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 20px;
     display: flex;
     flex-direction: column;
