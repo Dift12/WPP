@@ -61,6 +61,3 @@ function handleInput(){
             aboutStyleController.use();
     }
 }
-
-
-
