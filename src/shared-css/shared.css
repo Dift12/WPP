@@ -15,17 +15,6 @@ body{
     background-color: black;
 }
 
-/*
-body{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-}
-
-#content{
-    flex-grow: 1;
-}*/
-
 @font-face {
     font-family: Brand;
     src: url('../fonts/FungkaCity-Regular.woff2') format('woff2'),
@@ -79,6 +68,7 @@ nav > button:hover{
     letter-spacing: 1px;
     font-weight: bold;
     opacity: var(--active);
+    border-bottom: 2px solid var(--accent);
 }
 
 footer{
